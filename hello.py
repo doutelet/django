@@ -1,4 +1,4 @@
-import os
+from os import environ
 
 
 def wsgi_app(env, start_response):
