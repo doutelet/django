@@ -16,7 +16,7 @@ from django.conf.urls import url, include
 from ask.qa.views import test
 
 
-urlpatterns = [
+urlpatterns = patterns(
     url(r'^$', test),
 
-]
+)
